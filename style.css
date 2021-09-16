@@ -1,0 +1,23 @@
+tr {
+  background-color: lime;
+}
+
+td {
+  background-color: aquamarine !important;
+}
+table {
+  max-width: 50%;
+}
+
+
+
+@media only screen and (max-width: 992px) {
+  table {
+    max-width: 20%;
+  }
+}
+
+#add-account-view,
+#edit-account-view {
+  display: none;
+}
